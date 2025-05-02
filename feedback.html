@@ -1,0 +1,67 @@
+<!-- feedback.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GovSecure | Feedback</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .feedback-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 2em;
+    }
+    .feedback-form {
+      max-width: 500px;
+      width: 100%;
+      background-color: #1e2a3a;
+      padding: 2em;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+    }
+    .feedback-form input,
+    .feedback-form textarea,
+    .feedback-form button {
+      width: 100%;
+      margin-bottom: 1em;
+      padding: 0.75em;
+      border: none;
+      border-radius: 5px;
+    }
+    .feedback-form button {
+      background-color: #00d4ff;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GovSecure</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="survey.html">Survey</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="feedback.html">Feedback</a>
+    </nav>
+  </header>
+
+  <section class="feedback-container">
+    <h2>Feedback Form</h2>
+    <form class="feedback-form" action="https://formsubmit.co/31241343vupune.ac.in@gmail.com" method="post" >
+      <input type="text" name="Name" placeholder="Your Name" required>
+      <input type="email" name="Email" placeholder="Your Email" required>
+      <textarea name="Message" rows="5" placeholder="Your suggestions..." required></textarea>
+      <button type="submit">Send Feedback</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GovSecure Project | Designed for SDG 16</p>
+  </footer>
+</body>
+</html>
